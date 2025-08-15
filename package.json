@@ -9,6 +9,9 @@
     "dev": "vinxi dev"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^2.0.14",
+    "@convex-dev/agent": "^0.1.18",
+    "@convex-dev/rag": "^0.5.2",
     "@sentry/react": "^9.5.0",
     "@sentry/vite-plugin": "^3.2.2",
     "@tailwindcss/postcss": "^4.0.7",
@@ -20,7 +23,9 @@
     "@tanstack/router-plugin": "^1.114.17",
     "@tanstack/store": "^0.7.0",
     "@types/uuid": "^10.0.0",
+    "ai": "^5.0.14",
     "convex": "^1.20.0",
+    "convex-helpers": "^0.1.103",
     "highlight.js": "^11.11.1",
     "lucide-react": "^0.475.0",
     "postcss": "^8.5.2",
@@ -33,7 +38,8 @@
     "tailwindcss": "^4.0.6",
     "uuid": "^11.1.0",
     "vinxi": "^0.5.3",
-    "vite-tsconfig-paths": "^5.1.4"
+    "vite-tsconfig-paths": "^5.1.4",
+    "zod": "^4.0.17"
   },
   "devDependencies": {
     "@types/react": "^19.0.8",
