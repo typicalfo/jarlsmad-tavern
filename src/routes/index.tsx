@@ -275,7 +275,7 @@ function Home() {
                   .map((message) => (
                     <ChatMessage key={message.id} message={message} />
                   ))}
-                {isLoading && <LoadingIndicator />}
+                {/* {isLoading && <LoadingIndicator />} */}
               </div>
             </div>
 
